@@ -22,7 +22,6 @@ namespace WinFormsApp2
 
         private TabControl tabControl;
         private List<WebView2> webViews = new List<WebView2>();
-
         public Form1()
         {
             InitializeComponent();
