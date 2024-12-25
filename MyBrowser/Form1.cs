@@ -113,9 +113,7 @@ namespace WinFormsApp2
                 Size = new Size(976, 542)
             };
             Controls.Add(webView);
-
             await webView.EnsureCoreWebView2Async(null);
-
             if (webView.CoreWebView2 == null)
             {
                 MessageBox.Show("WebView2 was not able to initialize!");
